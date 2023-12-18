@@ -1,0 +1,92 @@
+
+.body{
+    text-align: center;
+    display:flex;
+    min-height:89vh;
+    align-items:center;
+    justify-content :center;
+    background-color: grey;
+    backdrop-filter: blur(10px);
+    background-image: url(Fbg1.jpg);
+    background-size: cover;
+  }
+  .merge
+  {
+    display:flex;
+    flex-direction: row;
+    padding-bottom: 35px;
+  }
+  .auth-form-container/*.login-form,.register-form*/
+  {
+    background-image: linear-gradient(50deg, yellow,rgb(232, 98, 143),rgb(92, 215, 215));
+    display:flex;
+    flex-direction : column;
+    width: 400px;
+    color: white;
+    float: right;
+    width: 420px;;
+    height: 570px;
+  }
+  .auth-form-container h1{
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .login-form,.register-form
+  {
+    padding-top:20px;
+    filter: blur(0px);
+    display:flex;
+    flex-direction : column;
+    color: white;
+  }
+  @media screen and (min-width:600px)
+  {
+    .auth-form-container
+    {
+    backdrop-filter:blur(8px);
+    padding:5rem;
+    /*border:1px solid white;
+    border-radius:10px;
+    margin: 0.5rem;*/
+  }
+  }
+  label{
+    text-align: left;
+    padding:0.25rem 0;
+  }
+  input{
+    margin:0.5rem 0;
+    padding:1rem;
+    border:none;
+    border-radius:10px;
+  }
+  button{
+    border:none;
+    background-color: white;
+    padding:10px;
+    border-radius:10px;
+    cursor:pointer;
+    color: purple;
+  }
+  .link-btn
+  {
+    background: none;
+    /*text-decoration:underline;*/
+    color: white;
+    font-weight:bold ;
+    font-size: 15px;
+  }
+  img{
+    float:left;
+    /*padding-left:100px;*/
+    height: 570px;
+    width:400px;
+    /*border-radius: px;
+    margin: 0.5rem;*/
+  }
+  Link
+  {
+    text-decoration: none;
+  }
+  
